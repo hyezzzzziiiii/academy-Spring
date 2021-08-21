@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\academy\hyeji\Spring\practice"/>
+			<item value="D:\academy\hyeji\Spring\Sp01"/>
+			<item value="D:\academy\hyeji\Spring\Sp02"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\academy\hyeji\Spring\SpringWEB03shop\pom.xml"/>
+			<item value="D:\academy\hyeji\Spring\SpringWEB03shop\src\main\webapp\WEB-INF\views\admin\adminLoginForm.jsp"/>
+			<item value="D:\academy\hyeji\Spring\Sp09"/>
+			<item value="D:\academy\hyeji\Spring\Sp08\src\main\java\com\ezen\word\MainClass.java"/>
+			<item value="D:\academy\hyeji\Spring\Sp07\src\main\java\com\ezen\student\main\MainClassUseimport.java"/>
+			<item value="D:\academy\hyeji\Spring\Sp06\src\main\java\com\ezen\student\main\MainClass.java"/>
+			<item value="D:\academy\hyeji\Spring\Sp05\src\main\java\com\ezen\member\dao\StudentDao.java"/>
+			<item value="D:\academy\hyeji\Spring\Sp03\pom.xml"/>
+			<item value="D:\academy\hyeji\Spring\Sp04\src\main\java\com\ezen\MainClass.java"/>
+			<item value="D:\academy\hyeji\Spring\Sp03\src\main\java\com\ezen\spcon\MainClass.java"/>
+			<item value="D:\academy\hyeji\Spring\Sp02\src\main\java\first\MainClass.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.ezen"/>
+		</list>
+		<list key="name">
+			<item value="SpringWEB11shop"/>
+		</list>
+		<list key="artifactId">
+			<item value="shop"/>
+			<item value="springmvc"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+			<item value="1.0.0-BUILD-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

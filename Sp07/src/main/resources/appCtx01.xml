@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+ 		http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+<bean id="studentDao" class="com.ezen.student.dao.StudentDao" >
+	<constructor-arg ref="dbconinfo" ></constructor-arg>
+</bean>
+<bean id="registerService" class="com.ezen.student.service.StudentRegisterService">
+	<constructor-arg ref="studentDao" ></constructor-arg>
+</bean>	
+<bean id="modifyService" class="com.ezen.student.service.StudentModifyService">
+	<constructor-arg ref="studentDao" ></constructor-arg>
+</bean>
+<bean id="selectService" class="com.ezen.student.service.StudentSelectService">
+	<constructor-arg ref="studentDao" ></constructor-arg>
+</bean>
+<bean id="allSelectService" class="com.ezen.student.service.StudentAllSelectService">
+	<constructor-arg ref="studentDao" ></constructor-arg>
+</bean> 		
+ 
+ </beans>

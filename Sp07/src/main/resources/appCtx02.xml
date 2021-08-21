@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+ 		http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 		
+ <bean id="dbconinfo" class="com.ezen.student.dto.DataBaseConnectionInfo">
+<property name="jdbcUrl" value="jdbc:oracle:thin:@localhost:1521:xe" />
+<property name="userId" value="scott" />
+<property name="userPw" value="tiger" />
+<property name="driver" value="oracle.jdbc.driver.OracleDriver" />
+</bean>
+
+<bean id="dbconinfo2" class="com.ezen.student.dto.DataBaseConnectionInfo">
+<property name="jdbcUrl" value="jdbc:oracle:thin:@localhost:1521:xe" />
+<property name="userId" value="system" />
+<property name="userPw" value="1234" />
+<property name="driver" value="oracle.jdbc.driver.OracleDriver" />
+</bean> 
+ 
+ </beans>
